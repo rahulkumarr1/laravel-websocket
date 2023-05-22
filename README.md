@@ -3,12 +3,17 @@ Laravel WebSockets
 
 # Run Queue and WebSockets Server.
 
-** To run Laravel Queue: **
+**To run Laravel Queue:**
 
+```
 php artisan queue:work
+```
 
-** To run Laravel WebSockets server: **
+**To run Laravel WebSockets server:**
+
+```
 php artisan websockets:serve
+```
 
 # Configure broadcasting and Websockets.
 Update your .env file. Make sure to set PUSHER variables:
